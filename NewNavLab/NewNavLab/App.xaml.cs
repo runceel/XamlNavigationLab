@@ -31,6 +31,7 @@ namespace NewNavLab
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage>();
+            containerRegistry.RegisterForNavigation<NextPage>();
         }
     }
 }
